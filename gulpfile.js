@@ -87,7 +87,7 @@ function watch() {
       '_data/*',
       '_includes/*',
       'assets/scripts/*.js',
-      'assets/images/*.*',
+      'assets/imgs/*.*',
       // './**/*.md' // causes infinite loop
     ],
     gulp.series(jekyllBuild, reload),

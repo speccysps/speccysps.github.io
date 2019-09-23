@@ -1,0 +1,58 @@
+@media only screen and (max-width: 76.8em) {
+    .wrapper {
+        margin-right: 2.4rem;
+        margin-left: 2.4rem;
+    }
+
+    h2.intro-ext {
+        font-size: 2.8rem;
+        text-align: right;
+        padding: 4rem 0 4rem 0;
+    }
+
+    .side img {
+        width: 80%;
+        margin-right: -2.4rem;
+    }
+
+    p.about-ext {
+        text-align: left;
+        font: 300 18px/32px $font-primary;
+        padding: 4rem 0 4rem 0;
+        color: darken($navigationLightBg, 60%)
+    }
+
+    .social-grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+        grid-gap: 0.25rem;
+        text-align: center;
+        margin: 0 4rem 0 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+
+    .fa-twitter,
+    .fa-instagram,
+    .fa-behance {
+        color: darken($navigationLightBg, 60%)
+    }
+
+    .fa-twitter:hover {
+        color: $twitter;
+        transition: 0.2s;
+    }
+
+    .fa-instagram:hover {
+        color: $instagram;
+        transition: 0.2s;
+    }
+
+    .fa-behance:hover {
+        color: $behance;
+        transition: 0.2s;
+    }
+}
