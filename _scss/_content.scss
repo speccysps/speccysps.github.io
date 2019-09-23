@@ -1,38 +1,40 @@
 @media only screen and (max-width: 76.8em) {
     .wrapper {
-        margin-right: 2.4rem;
-        margin-left: 2.4rem;
+        margin-right: 1.125rem;
+        margin-left: 1.125rem;
     }
 
     h2.intro-ext {
-        font-size: 2.8rem;
+        font-size: 1.75rem;
         text-align: right;
-        padding: 4rem 0 4rem 0;
+        padding: 0 0 1.5rem 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .side img {
         width: 80%;
-        margin-right: -2.4rem;
+        margin-right: -2.09rem;
     }
 
     p.about-ext {
         text-align: left;
-        font: 300 18px/32px $font-primary;
-        padding: 4rem 0 4rem 0;
+        font: 300 1.25rem/34px $font-primary;
+        padding: 2.5rem 0 2.5rem 0;
         color: darken($navigationLightBg, 60%)
     }
 
     .social-grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(1.875rem, 1fr));
         grid-gap: 0.25rem;
         text-align: center;
-        margin: 0 4rem 0 4rem;
-        padding-bottom: 4rem;
+        margin: 0 2.5rem 0 2.5rem;
+        padding-bottom: 2.5rem;
     }
 
     .fab {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .fa-twitter,

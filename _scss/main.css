@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 100%;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -22,6 +22,11 @@ body {
 /* Bootstrap NavBar Color Override http://work.smarchal.com/twbscolor/scss/f8f8f8e7e7e73333333333331 */
 .navbar {
   border-radius: 0px !important;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0;
 }
 
 footer {
@@ -246,36 +251,38 @@ footer {
 
 @media only screen and (max-width: 76.8em) {
   .wrapper {
-    margin-right: 2.4rem;
-    margin-left: 2.4rem;
+    margin-right: 1.125rem;
+    margin-left: 1.125rem;
   }
   h2.intro-ext {
-    font-size: 2.8rem;
+    font-size: 1.75rem;
     text-align: right;
-    padding: 4rem 0 4rem 0;
+    padding: 0 0 1.5rem 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .side img {
     width: 80%;
-    margin-right: -2.4rem;
+    margin-right: -2.09rem;
   }
   p.about-ext {
     text-align: left;
-    font: 300 18px/32px -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    padding: 4rem 0 4rem 0;
+    font: 300 1.25rem/34px -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 2.5rem 0 2.5rem 0;
     color: #666666;
   }
   .social-grid-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(4rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    -ms-grid-columns: (minmax(1.875rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(1.875rem, 1fr));
     grid-gap: 0.25rem;
     text-align: center;
-    margin: 0 4rem 0 4rem;
-    padding-bottom: 4rem;
+    margin: 0 2.5rem 0 2.5rem;
+    padding-bottom: 2.5rem;
   }
   .fab {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .fa-twitter,
   .fa-instagram,
