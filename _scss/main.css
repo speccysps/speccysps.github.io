@@ -311,18 +311,20 @@ footer {
 }
 
 .wrapper {
-  margin-right: 1.125rem;
-  margin-left: 1.125rem;
+  margin: auto;
+  max-width: 80%;
 }
 
-h1.intro-ext {
-  text-align: right;
-}
-
-@media screen and (min-width: 768px) {
-  h1.intro-ext {
-    text-align: none;
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin-right: 1.125rem;
+    margin-left: 1.125rem;
+    max-width: none;
   }
+}
+
+h1.intro-text {
+  text-align: right;
 }
 
 .side img {
@@ -331,7 +333,7 @@ h1.intro-ext {
   margin: auto 1.15rem;
 }
 
-p.about-ext {
+p.about-text {
   text-align: left;
   font: 300 1.25rem/2.125rem -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 2.5rem 0 2.5rem 0;
@@ -375,5 +377,43 @@ p.about-ext {
   color: #1769ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  h1.intro-text {
+    text-align: left;
+    float: left;
+    font-size: 1.75rem;
+    max-width: 50%;
+  }
+  .side {
+    float: right;
+    max-width: 50%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .side img {
+    width: 100%;
+    display: block;
+  }
+  p.about-text {
+    text-align: left;
+    font: 300 1.5rem/2.375rem -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0;
+    color: #666666;
+  }
+  .social-grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.25rem;
+    text-align: left;
+    margin: 0;
+    max-width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

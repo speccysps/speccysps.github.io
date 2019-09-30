@@ -1,16 +1,18 @@
 .wrapper {
-    margin-right: 1.125rem;
-    margin-left: 1.125rem;
+    margin: auto;
+    max-width: 80%;
 }
 
-h1.intro-ext {
+@media screen and (max-width:425px) {
+    .wrapper {
+        margin-right: 1.125rem;
+        margin-left: 1.125rem;
+        max-width: none;
+    }
+}
+
+h1.intro-text {
     text-align: right;
-}
-
-@media screen and (min-width:768px){
-h1.intro-ext {
-    text-align: none;
-}
 }
 
 .side img {
@@ -19,7 +21,7 @@ h1.intro-ext {
     margin: auto 1.15rem;
 }
 
-p.about-ext {
+p.about-text {
     text-align: left;
     font: 300 1.25rem/2.125rem $font-primary;
     padding: 2.5rem 0 2.5rem 0;
@@ -58,4 +60,46 @@ p.about-ext {
 .fa-behance:hover {
     color: $behance;
     transition: 0.2s;
+}
+
+@media screen and (min-width:768px) {
+    h1.intro-text {
+        text-align: left;
+        float: left;
+        font-size: 1.75rem;
+        max-width: 50%;
+    }
+
+    .side {
+        float: right;
+        max-width: 50%;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .side img {
+        width: 100%;
+        display: block;
+    }
+
+    p.about-text {
+        text-align: left;
+        font: 300 1.5rem/2.375rem $font-primary;
+        padding: 0;
+        color: darken($navigationLightBg, 60%)
+    
+    }
+
+    .social-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0.25rem;
+        text-align: left;
+        margin: 0;
+        max-width: 50%;
+    }
 }
