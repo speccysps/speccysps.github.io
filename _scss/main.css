@@ -3,6 +3,7 @@ html {
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 *,
@@ -17,6 +18,66 @@ body {
   margin: 0;
   min-height: 100%;
   padding-bottom: 10rem;
+}
+
+h1 {
+  display: block;
+  font-size: 1.75rem;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h4 {
+  display: block;
+  font-size: 1rem;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83rem;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67rem;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
 }
 
 /* Bootstrap NavBar Color Override http://work.smarchal.com/twbscolor/scss/f8f8f8e7e7e73333333333331 */
@@ -249,60 +310,63 @@ footer {
   color: #099;
 }
 
-@media only screen and (max-width: 76.8em) {
-  .wrapper {
-    margin-right: 1.125rem;
-    margin-left: 1.125rem;
-  }
-  h2.intro-ext {
-    font-size: 1.75rem;
-    text-align: right;
-    padding: 0 0 1.5rem 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .side img {
-    width: 80%;
-    margin-right: -2.09rem;
-  }
-  p.about-ext {
-    text-align: left;
-    font: 300 1.25rem/34px -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    padding: 2.5rem 0 2.5rem 0;
-    color: #666666;
-  }
-  .social-grid-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(1.875rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(1.875rem, 1fr));
-    grid-gap: 0.25rem;
-    text-align: center;
-    margin: 0 2.5rem 0 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-  .fab {
-    font-size: 2rem;
-  }
-  .fa-twitter,
-  .fa-instagram,
-  .fa-behance {
-    color: #666666;
-  }
-  .fa-twitter:hover {
-    color: #00ACEE;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-  }
-  .fa-instagram:hover {
-    color: #c32aa3;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-  }
-  .fa-behance:hover {
-    color: #1769ff;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-  }
+.wrapper {
+  margin-right: 1.125rem;
+  margin-left: 1.125rem;
+}
+
+h1.intro-ext {
+  text-align: right;
+}
+
+.side img {
+  width: 80%;
+  margin-right: -1.09rem;
+}
+
+p.about-ext {
+  text-align: left;
+  font: 300 1.25rem/2.125rem -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 2.5rem 0 2.5rem 0;
+  color: #666666;
+}
+
+.social-grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(1.875rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(1.875rem, 1fr));
+  grid-gap: 0.25rem;
+  text-align: center;
+  margin: 0 2.5rem 0 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.fab {
+  font-size: 2rem;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-behance {
+  color: #666666;
+}
+
+.fa-twitter:hover {
+  color: #00ACEE;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fa-behance:hover {
+  color: #1769ff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 /*# sourceMappingURL=main.css.map */

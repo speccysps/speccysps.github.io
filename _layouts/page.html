@@ -8,12 +8,19 @@
       {% include olderIE.html %}
     <![endif]-->
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <!-- bootstrap starts -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
+  <!-- bootstrap ends -->
+
+  <!-- custom styles starts -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  <!-- custom styles ends -->
+
+  <!-- font awesome starts -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- font awesome ends -->
 
 
   <!--[if lte IE 9]>
@@ -28,8 +35,7 @@
 
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-  {% include navigation.html %}
+  
   <div class="container">
     {{ content }}
   </div>
