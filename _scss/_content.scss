@@ -5,12 +5,18 @@
 
 h1.intro-ext {
     text-align: right;
-    // padding: 0 0 1.5rem 0;
+}
+
+@media screen and (min-width:768px){
+h1.intro-ext {
+    text-align: none;
+}
 }
 
 .side img {
-    width: 80%;
-    margin-right: -1.15rem;
+    width: 100%;
+    display: block;
+    margin: auto 1.15rem;
 }
 
 p.about-ext {
