@@ -101,13 +101,23 @@ p.about-text {
     }
 }
 
+@media screen and (min-width:1024px) {
+    .align {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+}
+
 @media screen and (min-width:1440px) {
     .align {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        width: 100%;
+        max-width: 1440px;
     }
 
     h1.intro-text {

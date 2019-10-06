@@ -1,4 +1,4 @@
-I"<h2 id="what-is-the-smackdown-db">What is the SmackDown DB?</h2>
+I"&<h2 id="what-is-the-smackdown-db">What is the SmackDown DB?</h2>
 <p><br />
 The SmackDown DB is a website which strives to serve the Wrestling Video Game community. Users can look up the attributes of characters from a history of games and view the progression of different skills and abilities. The database can also be used as a reference tool for future games with an ever expanding list of characters and a community that continues to grow. <br />
 <br />
@@ -11,8 +11,8 @@ This web application will give fans of wrestling video games access to informati
 
 <h3 id="the-database-structure">The Database structure</h3>
 <p><br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/database-structure.png" data-lightbox="image-1" data-title="Database structure" class="img-responsive" style="float:right; margin-left: 1em;">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/database-structure.png" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/database-structure.png" data-lightbox="image-1" data-title="Database structure" class="img-responsive" style="float:right; margin-left: 1em;">
+  <img src="/assets/post-assets/smackdowndb/database-structure.png" alt="SmackDown DB" />
 </a></p>
 
 <p>During the the initial creation of the application, I was aware that the core of this web app would be its database - most importantly the structure of how it works.
@@ -26,34 +26,34 @@ Tables such as brands, heights, reactions, skills (skill_levels), abilities (abi
 <p><br />
 The wrestlers profile page is the focus and the really reason you would use the application. Users can see a range of different data associated with the specific character. The images will change to meet the specific characters and games.<br />
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/character-profile-view.png" data-lightbox="image-2" data-title="Character profile" class="img-responsive" style="text-align: center">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/character-profile-view.png" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/character-profile-view.png" data-lightbox="image-2" data-title="Character profile" class="img-responsive" style="text-align: center">
+  <img src="/assets/post-assets/smackdowndb/character-profile-view.png" alt="SmackDown DB" />
 </a>
 <br />
 One major feature of the site is to view the data in a visual form. The wrestlers characters re made up of numbers and to just view numbers would get very boring and unappealing but by making attributes, hit points and personalty a visual aspect, it offers a form of game culture to the user.<br />
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/attributes-style-change.jpg" data-lightbox="image-3" data-title="Attribute Change" class="img-responsive" style="text-align: center">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/attributes-style-change.jpg" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/attributes-style-change.jpg" data-lightbox="image-3" data-title="Attribute Change" class="img-responsive" style="text-align: center">
+  <img src="/assets/post-assets/smackdowndb/attributes-style-change.jpg" alt="SmackDown DB" />
 </a>
 <br /></p>
 <h3 id="familiar-visuals">Familiar visuals</h3>
 <p><br />
 Something I was after myself was a sense of connection between the source and the website. Taking the information from the games and putting it into an organised and maintained website is one things, but I wanted to also bring the visual representatives that would would find in the games to the website.<br />
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/personality-visuals.jpg" data-lightbox="image-4" data-title="Personalty" class="img-responsive" style="text-align: center">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/personality-visuals.jpg" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/personality-visuals.jpg" data-lightbox="image-4" data-title="Personalty" class="img-responsive" style="text-align: center">
+  <img src="/assets/post-assets/smackdowndb/personality-visuals.jpg" alt="SmackDown DB" />
 </a>
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/hp-visuals.jpg" data-lightbox="image-5" data-title="Profile view" class="img-responsive">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/hp-visuals.jpg" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/hp-visuals.jpg" data-lightbox="image-5" data-title="Profile view" class="img-responsive">
+  <img src="/assets/post-assets/smackdowndb/hp-visuals.jpg" alt="SmackDown DB" />
 </a>
 <br /></p>
 <h3 id="search-function">Search function</h3>
 <p><br />
 A key feature of the website is being able to get around. The users will need to be able to look up whatever character they want in a quick and easy fashion. To meet these goals, I decided to make use of a search function which would look through my database and output relevant information.<br />
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/search-function.jpg" data-lightbox="image-6" data-title="Search" class="img-responsive" style="text-align: center">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/search-function.jpg" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/search-function.jpg" data-lightbox="image-6" data-title="Search" class="img-responsive" style="text-align: center">
+  <img src="/assets/post-assets/smackdowndb/search-function.jpg" alt="SmackDown DB" />
 </a>
 <br />
 Users can can search for a specific wrestler and view the results of all the wrestlers who match the search term, their overall rating and the game they are included in.<br />
@@ -62,7 +62,7 @@ Users can can search for a specific wrestler and view the results of all the wre
 <p><br />
 More than likely, some users are not going to know or remember the correct spelling of the wrestler that they’re looking for. So you’re able to look by game. What this will do is allow the user to navigate through each iteration of WWE game and view the roster which will then link then link to the correct wrestlers page.<br />
 <br />
-<a href="spskeen.github.io/assets/post-assets/smackdowndb/game-library.jpg" data-lightbox="image-7" data-title="Game selection" class="img-responsive" style="text-align: center">
-  <img src="spskeen.github.io/assets/post-assets/smackdowndb/game-library.jpg" alt="SmackDown DB" />
+<a href="/assets/post-assets/smackdowndb/game-library.jpg" data-lightbox="image-7" data-title="Game selection" class="img-responsive" style="text-align: center">
+  <img src="/assets/post-assets/smackdowndb/game-library.jpg" alt="SmackDown DB" />
 </a></p>
 :ET
