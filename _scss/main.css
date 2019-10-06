@@ -311,24 +311,21 @@ footer {
 }
 
 .wrapper {
-  margin: auto;
-  max-width: 80%;
-}
-
-@media screen and (max-width: 425px) {
-  .wrapper {
-    margin-right: 1.125rem;
-    margin-left: 1.125rem;
-    max-width: none;
-  }
+  display: block;
+  margin-right: 1.125rem;
+  margin-left: 1.125rem;
 }
 
 h1.intro-text {
   text-align: right;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
 }
 
 .side img {
-  width: 100%;
+  max-width: 100%;
   display: block;
   margin: auto 1.15rem;
 }
@@ -379,7 +376,7 @@ p.about-text {
   transition: 0.2s;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   h1.intro-text {
     text-align: left;
     float: left;
@@ -396,8 +393,9 @@ p.about-text {
     display: table;
   }
   .side img {
-    width: 100%;
+    max-width: 90%;
     display: block;
+    margin: auto 1.15rem;
   }
   p.about-text {
     text-align: left;

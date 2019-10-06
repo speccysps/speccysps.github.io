@@ -1,22 +1,18 @@
 .wrapper {
-    margin: auto;
-    max-width: 80%;
+    display: block;
+    margin-right: 1.125rem;
+    margin-left: 1.125rem;
 }
 
-@media screen and (max-width:425px) {
-    .wrapper {
-        margin-right: 1.125rem;
-        margin-left: 1.125rem;
-        max-width: none;
-    }
-}
 
 h1.intro-text {
     text-align: right;
+    text-size-adjust: auto;
+
 }
 
 .side img {
-    width: 100%;
+    max-width: 100%;
     display: block;
     margin: auto 1.15rem;
 }
@@ -62,7 +58,7 @@ p.about-text {
     transition: 0.2s;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:767px) {
     h1.intro-text {
         text-align: left;
         float: left;
@@ -82,8 +78,10 @@ p.about-text {
     }
 
     .side img {
-        width: 100%;
+        max-width: 90%;
         display: block;
+        margin: auto 1.15rem;
+
     }
 
     p.about-text {
@@ -91,7 +89,6 @@ p.about-text {
         font: 300 1.5rem/2.375rem $font-primary;
         padding: 0;
         color: darken($navigationLightBg, 60%)
-    
     }
 
     .social-grid-container {
