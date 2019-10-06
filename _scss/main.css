@@ -376,7 +376,15 @@ p.about-text {
   transition: 0.2s;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
+  .align {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+  }
   h1.intro-text {
     text-align: left;
     float: left;
@@ -387,19 +395,55 @@ p.about-text {
     float: right;
     max-width: 50%;
   }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
   .side img {
     max-width: 90%;
     display: block;
-    margin: auto 1.15rem;
+    margin: auto 0 auto auto;
   }
   p.about-text {
     text-align: left;
     font: 300 1.5rem/2.375rem -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0;
+    color: #666666;
+  }
+  .social-grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.25rem;
+    text-align: left;
+    margin: 0;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .align {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  h1.intro-text {
+    text-align: left;
+    float: left;
+    font-size: 2.125rem;
+  }
+  .side {
+    float: right;
+    max-width: 50%;
+  }
+  .side img {
+    max-width: 90%;
+    display: block;
+    margin: auto 0 auto auto;
+  }
+  p.about-text {
+    text-align: left;
+    font: 300 1.75rem/2.375rem -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 0;
     color: #666666;
   }
