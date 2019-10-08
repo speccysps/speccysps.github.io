@@ -1,3 +1,5 @@
+
+
 .wrapper {
     display: block;
     margin-right: 1.125rem;
@@ -7,7 +9,6 @@
 h1.intro-text {
     text-align: right;
     text-size-adjust: auto;
-
 }
 
 .side img {
@@ -151,5 +152,17 @@ p.about-text {
         text-align: left;
         margin: 0;
         max-width: 50%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        /* Lovely moody Dark Scheme */
+        color: white;
+        background: hsl(0, 0%, 15%);
+    }
+
+    p {
+        color: red;
     }
 }
