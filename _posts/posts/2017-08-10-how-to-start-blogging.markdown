@@ -50,10 +50,10 @@ If you don’t have access to Microsoft Word or another desktop based applicatio
 * #### <a href="https://www.grammarly.com/">Grammarly</a>
 Slacking at grammar or spelling? Don’t let that hold you back! You can still create great content and then run it through the Grammarly services and get them help you out. Copy and paste your post into Grammarly, find the mistakes and correct them.  
 <br>
-* #### <a href="http://www.hemingwayapp.com/">Hemingway</a>
+* #### <a href="https://www.hemingwayapp.com/">Hemingway</a>
 Hemingway is a new application to me, it’s a tool which helps suss out the readability of your post. Offering helpful tips for improving your score, with the use of highlights and an informative side bar, this is one tool I’m going to be using from now on.  
 <br>
-* #### <a href="http://e.ggtimer.com/">Egg Timer</a>
+* #### <a href="https://e.ggtimer.com/">Egg Timer</a>
 Egg Timer is what it says on the tin, it’s a timer. Set the timer for how long you want to work for and then work. There really is not much to it. The user interface is welcoming and the alarm is not annoying. It’s a thumbs up from me. 👍🏼  
 <br>
 * #### <a href="https://tomato-timer.com/">Pomodoro Technique</a>
@@ -66,7 +66,7 @@ The Pomodoro Technique was something introduced to me by a former house mate, as
 * #### <a href="https://www.pexels.com/">Pexels</a>
 My go to photo site. With a handy search bar, Pexels is free and allows you to use the pictures without asking for permission or linking to the source.  
 <br>
-* #### <a href="http://photopin.com/">PhotoPin</a>
+* #### <a href="https://photopin.com/">PhotoPin</a>
 PhotoPin allows you to search millions of photos from Flickr which have the Creation Commons attribute. Perfect for your blog post.  
 <br>
 
@@ -76,4 +76,4 @@ PhotoPin allows you to search millions of photos from Flickr which have the Crea
 **Now you got some tools, why don't you create something?**  
 In all honesty, if you're not passionate about writing a post for a blog then that's fine, maybe you're not cut out for it. The best thing you can do is find another way to express your views and ideas - may be try YouTube but I'll save that idea for another post.  
 <br>
-Take a look at this post over at The Recruitment Network Club about <a href="http://www.therecruitmentnetworkclub.com/recruitment/5-reasons-you-shouldnt-get-your-consultants-writing-your-blog/">"The Do’s and Don’ts of Getting Your Employees to Write Your Blog Articles"</a>, you might find out something interesting about yourself.
+Take a look at this post over at The Recruitment Network Club about <a href="https://www.therecruitmentnetworkclub.com/recruitment/5-reasons-you-shouldnt-get-your-consultants-writing-your-blog/">"The Do’s and Don’ts of Getting Your Employees to Write Your Blog Articles"</a>, you might find out something interesting about yourself.

@@ -2,14 +2,14 @@
 
 A boilerplate project including full setup for Jekyll, GulpJS, SASS, PostCSS, BrowserSync, Autoprefixer and deploy to GitHub Pages using Gulp.
 
-The boilerplate is loaded with Bootstrap and jQuery (via CDN) to get you started with your projects. I have also included some SEO optimizations and [Open Graph](http://ogp.me/) tags / [Twitter Cards](https://dev.twitter.com/cards/overview) tags to tell Facebook and Twitter how shares to your site should display (**Note:** Look at `_includes/metas.html` and change accordingly).
+The boilerplate is loaded with Bootstrap and jQuery (via CDN) to get you started with your projects. I have also included some SEO optimizations and [Open Graph](https://ogp.me/) tags / [Twitter Cards](https://dev.twitter.com/cards/overview) tags to tell Facebook and Twitter how shares to your site should display (**Note:** Look at `_includes/metas.html` and change accordingly).
 
 ## System Preparation
 
 To use this starter boilerplate project, you'll need the following things installed on your machine.
 
-1.  [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2.  [NodeJS](http://nodejs.org) - use the installer.
+1.  [Jekyll](https://jekyllrb.com/) - `$ gem install jekyll`
+2.  [NodeJS](https://nodejs.org) - use the installer.
 3.  [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier) - `$ gem install jekyll-minifier`
 
 ## Local Installation
@@ -46,7 +46,7 @@ $ npm run dev
 
 ### Jekyll
 
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
+As this is just a Jekyll project, you can use any of the commands listed in their [docs](https://jekyllrb.com/docs/usage/)
 
 ## Deploy with Gulp to GitHub Pages (Production Mode)
 
@@ -97,6 +97,6 @@ or simply _Right Click -> Delete_ that directory to delete it.
 
 This is how the boilerplate template looks like.
 
-![JPG](http://i.imgur.com/2vmwgkgl.jpg)
+![JPG](https://i.imgur.com/2vmwgkgl.jpg)
 
 Link to deployed template: [https://esausilva.github.io/jekyll-gulp-boilerplate/](https://esausilva.github.io/jekyll-gulp-boilerplate/)

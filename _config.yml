@@ -12,7 +12,7 @@ description: A boilerplate project including full setup for Jekyll, GulpJS, SASS
 
 # ** Make sure you change these when deploying to your repo **
 baseurl: 'spskeen.github.io' # the subpath of your site, e.g. /blog
-url: 'http://shaunskeen.github.io' # the base hostname & protocol for your site, e.g. http://example.com or http://[yourusername].github.io
+url: 'https://spskeen.github.io' # the base hostname & protocol for your site, e.g. https://example.com or https://[yourusername].github.io
 
 # Build settings
 markdown: kramdown
