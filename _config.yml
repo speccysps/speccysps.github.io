@@ -11,8 +11,7 @@ email: shaun.skeen@icloud.com
 description: A boilerplate project including full setup for Jekyll, GulpJS, SASS, PostCSS, BrowserSync, Autoprefixer and deploy to GitHub Pages using Gulp.
 
 # ** Make sure you change these when deploying to your repo **
-baseurl: 'spskeen.github.io' # the subpath of your site, e.g. /blog
-url: 'https://spskeen.github.io' # the base hostname & protocol for your site, e.g. https://example.com or https://[yourusername].github.io
+url: 'https://speccysps.github.io' # the base hostname & protocol for your site, e.g. https://example.com or https://[yourusername].github.io
 
 # Build settings
 markdown: kramdown
