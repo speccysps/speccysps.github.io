@@ -1,0 +1,21 @@
+{
+  "name": "speccysps.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speccysps/speccysps.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/speccysps/speccysps.github.io/issues"
+  },
+  "homepage": "https://github.com/speccysps/speccysps.github.io#readme"
+}
