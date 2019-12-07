@@ -1,5 +1,5 @@
-const gulp = require('gulp'),
-    watch = require('gulp-watch'),
+var gulp = require('gulp'),
+    gulpwatch = require('gulp-watch'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     cssvars = require('postcss-simple-vars'),
@@ -27,14 +27,16 @@ function styles(done) {
 // end
 
 function gulpwatch(done) {
-    watch('./index.html', function () {
-        gulp.start('html');
+    gulpwatch('./index.html', function () {
+        gulp.series('html', html);
     });
-    watch('./assets/styles/**/*.css', function () {
-        gulp.start('styles');
+    // end
+    gulpwatch('./assets/styles/**/*.css', function () {
+        gulp.series('styles', styles);
     });
+    // end
     done()
 };
 
-gulp.task('default', gulp.series(start, html, styles));
-gulp.task('gulpwatch', gulpwatch);
+gulp.task('default', gulp.series(start, html, styles, gulpwatch));
+// gulp.task('gulpwatch', gulpwatch);
