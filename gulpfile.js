@@ -1,6 +1,9 @@
 const gulp = require('gulp'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync').create();
+    browserSync = require('browser-sync').create(),
+    browserify = require("browserify"),
+    babelify = require("babelify"),
+    source = require("vinyl-source-stream");
 
 // ! compile scss into css
 function style() {
@@ -26,7 +29,7 @@ function watch() {
     // ? watch the html file and reload the page when changes detected
     gulp.watch('./*.html').on('change', browserSync.reload);
     // ? watch the js folder and reload the page when changes detected
-    gulp.watch('./_js/**/*.js').on('change', browserSync.reload);
+    gulp.watch('./js/**/*.js').on('change', browserSync.reload);
 }
 
 exports.style = style;
