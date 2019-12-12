@@ -7,13 +7,14 @@ function style() {
     // ? 1. where is my scss file
     return gulp.src('./_scss/**/*.scss')
     // ? 2. pass that file through sass compiler
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     // ? 3. where do I save the complied css?
     .pipe(gulp.dest('./assets/css'))
     // ? 4. stream changes to all browser (browserSync) 
     .pipe(browserSync.stream());
 }
 
+// ! watch files & folders
 function watch() {
     browserSync.init({
         server: {
