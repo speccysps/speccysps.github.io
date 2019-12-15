@@ -1,9 +1,6 @@
 const gulp = require('gulp'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync').create(),
-    browserify = require("browserify"),
-    babelify = require("babelify"),
-    source = require("vinyl-source-stream");
+    browserSync = require('browser-sync').create();
 
 // ! compile scss into css
 function style() {
@@ -34,3 +31,7 @@ function watch() {
 
 exports.style = style;
 exports.watch = watch;
+
+// * Default
+const build = gulp.series(watch);
+exports.default = build;
