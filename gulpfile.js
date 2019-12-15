@@ -20,7 +20,6 @@ function jquery() {
     return gulp.src('./node_modules/jquery/dist/jquery.min.js')
         // ? 2. where do I move the jquery file
         .pipe(gulp.dest('./src/js'))
-
 }
 
 // ! Move bootstrap into src folder
@@ -29,9 +28,7 @@ function bootstrap() {
     return gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
         // ? 2. where do I move the jquery file
         .pipe(gulp.dest('./src/js'))
-
 }
-
 
 // ! watch files & folders
 function watch() {
@@ -54,5 +51,5 @@ exports.bootstrap = bootstrap;
 exports.watch = watch;
 
 // * Default
-const build = gulp.series(watch);
+const build = gulp.series(jquery, bootstrap, watch);
 exports.default = build;
