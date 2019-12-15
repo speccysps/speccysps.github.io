@@ -9,7 +9,7 @@ function style() {
     // ? 2. pass that file through sass compiler
     .pipe(sass().on('error', sass.logError))
     // ? 3. where do I save the complied css?
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('./src/css'))
     // ? 4. stream changes to all browser (browserSync) 
     .pipe(browserSync.stream());
 }
