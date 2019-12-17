@@ -23,7 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm Shaun, a digital designer and developer from London, England. I studied at Bournemouth University where I graduated with a bachelor degree in digital media design.
 baseurl: "" # the subpath of your site, e.g. /blog
 author: shaun_skeen
-
+disqus:
+  shortname: shaunskeen
 # Build settings
 plugins:
   - jekyll-feed

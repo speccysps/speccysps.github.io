@@ -1,14 +1,13 @@
 ---
 layout: post
-# About
-title:  "SmackDown DB"
-permalink: /:year/:title/
-head: -head.jpg
-thumb: -thumb.jpg
-# Info
+# Post details
+title: "SmackDown DB"
+categories: jekyll update
+permalink: /blog/:year/:month/:day/:title/
+# Post Settings
 published: true
 comments: false
-# Author
+# Post Author
 author: shaun_skeen
 ---
 

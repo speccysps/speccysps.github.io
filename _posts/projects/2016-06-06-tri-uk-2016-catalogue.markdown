@@ -1,14 +1,13 @@
 ---
 layout: post
-# About
-title:  "TRI UK 2016 Catalogue"
-permalink: /:categories/:title/
-head: -head.jpg
-thumb: -thumb.jpg
-# Info
+# Post details
+title: "TRI UK 2016 Catalogue"
+categories: jekyll update
+permalink: /blog/:year/:month/:day/:title/
+# Post Settings
 published: true
-comments: true
-# Author
+comments: false
+# Post Author
 author: shaun_skeen
 ---
 
