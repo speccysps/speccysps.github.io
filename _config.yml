@@ -28,7 +28,6 @@ twitter_username: speccysps
 github_username:  speccysps
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 

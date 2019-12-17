@@ -1,8 +1,10 @@
 @import 'variables';
+@import 'minima';
 
-$theme-colors: ("primary": #FF69B4),;
+$theme-colors: ("primary": #FF69B4);
 
-@import "node_modules/bootstrap/scss/bootstrap";
+// ! Bootstrap scss
+// @import "node_modules/bootstrap/scss/bootstrap";
 
 
 html {
