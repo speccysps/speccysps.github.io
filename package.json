@@ -1,6 +1,9 @@
 {
   "name": "speccysps.github.io",
   "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"This is a test\""
+  },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
@@ -9,6 +12,8 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "jekyll": "^3.0.0-beta1"
   }
 }
