@@ -19,13 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Shaun - Digital Enthusiast, designer and developer
-email: shaun.skeen@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Shaun, a digital content enthusiast, designer and developer from London, England. I studied at Bournemouth University where I graduated with a bachelor degree in digital media design.
+  I'm Shaun, a digital designer and developer from London, England. I studied at Bournemouth University where I graduated with a bachelor degree in digital media design.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shaunskeen.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: speccysps
-github_username:  speccysps
+author: shaun_skeen
 
 # Build settings
 plugins:
