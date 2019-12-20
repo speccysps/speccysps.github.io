@@ -1,9 +1,0 @@
-.clip-me {
-  clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
-  background: red;
-  width: 100%;
-  min-height: 35em;
-  height: 100%;
-  position: relative;
-  z-index: -1;
-  padding: 2em; }
