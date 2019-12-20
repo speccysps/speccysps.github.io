@@ -511,7 +511,7 @@ html {
   box-sizing: border-box;
   font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-.clip-me {
+.header {
   clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
   background: #89AEb2;
   width: 100%;

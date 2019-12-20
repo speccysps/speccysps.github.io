@@ -1,4 +1,5 @@
-@import 'speccysps/variables';
+@import 'abstracts/variables';
+@import 'base/typography';
 @import 'minima';
 
 $theme-colors: ("primary": #FF69B4);
@@ -14,4 +15,4 @@ html {
     font-family: $font-primary;
 }
 
-@import 'speccysps/home';
+@import 'pages/home';
