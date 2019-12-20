@@ -1,6 +1,5 @@
-@import 'variables';
+@import 'speccysps/variables';
 @import 'minima';
-@import 'home';
 
 $theme-colors: ("primary": #FF69B4);
 
@@ -14,3 +13,5 @@ html {
     box-sizing: border-box;
     font-family: $font-primary;
 }
+
+@import 'speccysps/home';
